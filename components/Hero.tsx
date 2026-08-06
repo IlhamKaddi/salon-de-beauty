@@ -35,7 +35,7 @@ export default function Hero() {
   return (
     <section
       aria-label="Présentation — Bella Beauty Corner"
-      className="relative flex h-[92vh] min-h-screen w-full items-end overflow-hidden bg-[#0B0A08] md:items-center"
+      className="relative flex min-h-screen w-full items-center overflow-hidden bg-[#0B0A08]"
     >
       {/* Background image with slow Ken Burns drift */}
       <motion.div
