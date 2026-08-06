@@ -50,37 +50,12 @@ type GalleryItem = {
 };
 
 const GALLERY: GalleryItem[] = [
-  {
-    id: "01",
-   
-    photo: "/tr7.jpg",
-  },
-  {
-    id: "02",
-  
-    photo: "/tr2.jpg",
-  },
-  {
-    id: "03",
-  
-    photo: "/tr3.jpg",
-  },
-  {
-    id: "04",
-   
-    photo: "/tr4.jpg",
-  },
-  {
-    id: "05",
-
-    photo: "/tr5.jpg",
-  },
-  {
-    id: "06",
- 
-
-    photo: "/tr6.jpg",
-  },
+  { id: "01", photo: "/TR7.jpg" },
+  { id: "02", photo: "/TR2.jpg" },
+  { id: "03", photo: "/TR3.jpg" },
+  { id: "04", photo: "/TR4.jpg" },
+  { id: "05", photo: "/TR5.jpg" },
+  { id: "06", photo: "/TR6.jpg" },
 ];
 
 const containerVariants: Variants = {
