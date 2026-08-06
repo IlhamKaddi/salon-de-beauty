@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    background-color: #6e2c3b;
+    color: #fbf6f2;
+  }
+
+
+  html {
+    scroll-padding-top: 90px;
+  }
+
+  :focus-visible {
+    outline: 2px solid #6e2c3b;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-script italic text-rose text-2xl md:text-3xl;
+  }
+
+  .section-heading {
+    @apply font-display text-3xl md:text-5xl leading-[1.1] text-charcoal;
+  }
+
+  .section-padding {
+    @apply px-6 md:px-12 lg:px-20;
+  }
+
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-burgundy px-8 py-4 text-sm font-medium tracking-widest text-ivory transition-colors duration-300 hover:bg-burgundy-dark;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-charcoal/20 bg-transparent px-8 py-4 text-sm font-medium tracking-widest text-charcoal transition-colors duration-300 hover:border-burgundy hover:text-burgundy;
+  }
+
+  .satin-hover {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .satin-hover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      115deg,
+      transparent 20%,
+      rgba(255, 255, 255, 0.5) 40%,
+      transparent 60%
+    );
+    transform: translateX(-150%) skewX(-20deg);
+    transition: transform 0.9s ease;
+    pointer-events: none;
+  }
+
+  .satin-hover:hover::after {
+    transform: translateX(150%) skewX(-20deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+
+
+.swiper-pagination {
+  margin-top: 30px;
+  position: relative !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #d6b37c !important;
+  opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+  background: #b88a44 !important;
+  opacity: 1;
+}
