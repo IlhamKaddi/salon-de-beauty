@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Topbarre from '@/components/Topbarre';
 
 const SITE_URL = 'https://www.votre-salon.com'; // ← à remplacer
-const SALON_NAME = 'Maison Bella Beauty Corner'; // ← à remplacer
+const SALON_NAME = 'Maison Beauty'; // ← à remplacer
 const COVER_IMAGE =
   'https://images.unsplash.com/photo-1595475207225-428b62bda831?w=1200&q=80';
 
@@ -70,7 +70,7 @@ export default function GaleriePage() {
 
           <div className="mt-6 space-y-6 font-body text-[20px] leading-relaxed">
             <p>
-              Bienvenue dans la galerie de <strong>Bella Beauty Corner</strong>, votre
+              Bienvenue dans la galerie de <strong>Salon Beauty </strong>, votre
               salon de beauté et de coiffure dédié à l&apos;élégance, au bien-être et à
               la mise en valeur de votre beauté naturelle. Découvrez nos réalisations,
               des coupes de cheveux modernes aux colorations, balayages, brushings et
@@ -88,7 +88,7 @@ export default function GaleriePage() {
 
             <p>
               Laissez-vous inspirer par nos transformations et plongez dans
-              l&apos;univers raffiné de Bella Beauty Corner. Découvrez notre travail et
+              l&apos;univers raffiné de Salon Beauty . Découvrez notre travail et
               imaginez votre prochaine mise en beauté réalisée avec expertise, élégance
               et passion.
             </p>

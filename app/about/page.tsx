@@ -25,14 +25,14 @@ const manrope = Manrope({
 // --- SEO : métadonnées de la page ---
 // À adapter avec les vraies informations du salon (adresse, téléphone, image).
 export const metadata: Metadata = {
-  title: "À propos de nous | Bella Beauty Corner — Salon de beauté & coiffure",
+  title: "À propos de nous |  Salon de beauté & coiffure",
   description:
-    "Découvrez l'histoire, les valeurs et le savoir-faire de Bella Beauty Corner, salon de beauté et coiffure haut de gamme. Coiffure sur-mesure, soins du visage, manucure et maquillage professionnel.",
+    "Découvrez l'histoire, les valeurs et le savoir-faire d salon de beauté et coiffure haut de gamme. Coiffure sur-mesure, soins du visage, manucure et maquillage professionnel.",
   keywords: [
     "salon de beauté",
     "salon de coiffure",
     "institut de beauté",
-    "Bella Beauty Corner",
+    "Salon Beauty",
     "coiffure sur mesure",
     "soins du visage",
     "manucure pédicure",
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/a-propos" },
   openGraph: {
-    title: "À propos de Bella Beauty Corner",
+    title: "À propos de Salon Beauty",
     description:
-      "L'histoire, les valeurs et l'expertise du salon Bella Beauty Corner : l'art de la beauté, sublimé.",
+      "L'histoire, les valeurs et l'expertise du salon Salon Beauty : l'art de la beauté, sublimé.",
     type: "website",
     locale: "fr_FR",
     images: [
@@ -50,15 +50,15 @@ export const metadata: Metadata = {
         url: "/images/bella-beauty-corner-og.jpg", // à remplacer par une vraie image (1200x630)
         width: 1200,
         height: 630,
-        alt: "Intérieur du salon Bella Beauty Corner",
+        alt: "Intérieur du salon Salon Beauty",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "À propos de Bella Beauty Corner",
+    title: "À propos de Salon Beauty",
     description:
-      "L'histoire, les valeurs et l'expertise du salon Bella Beauty Corner.",
+      "L'histoire, les valeurs et l'expertise du salon Salon Beauty.",
   },
 };
 
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "BeautySalon",
-  name: "Bella Beauty Corner",
+  name: "Salon Beauty",
   description:
     "Salon de beauté et coiffure haut de gamme proposant coiffure sur-mesure, soins du visage, manucure, pédicure et maquillage professionnel.",
   image: "https://www.votredomaine.com/images/bella-beauty-corner-salon.jpg",

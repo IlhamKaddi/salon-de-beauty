@@ -225,7 +225,7 @@ export default function ServicesShowcase() {
 
           <div className="mt-6 space-y-5 font-body text-[20px] leading-relaxed ">
             <p>
-              Chez <strong>Bella Beauty Corner</strong>, nous vous proposons une gamme
+              Chez <strong>Salon Beauty </strong>, nous vous proposons une gamme
               complète de prestations dédiées à votre beauté et à votre bien-être,
               réalisées avec expertise, passion et une attention particulière à chaque
               détail.

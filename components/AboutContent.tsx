@@ -166,7 +166,7 @@ export default function AboutContent() {
             transition={{ duration: 0.6, ease: EASE }}
             className="text-xs font-semibold uppercase tracking-[0.35em] text-[#A8646E]"
           >
-            Bella Beauty Corner
+            Salon Beauty
           </motion.p>
 
           <motion.h1
@@ -190,7 +190,7 @@ export default function AboutContent() {
             transition={{ duration: 0.7, ease: EASE, delay: 0.25 }}
             className="mx-auto max-w-xl text-base leading-relaxed text-[#5A4F47] sm:text-lg"
           >
-            Bienvenue chez <strong className="font-semibold text-[#2B2420]">Bella Beauty Corner</strong>,
+            Bienvenue chez <strong className="font-semibold text-[#2B2420]">Salon Beauty</strong>,
             salon de beauté et coiffure où le savoir-faire artisanal rencontre
             une élégance intemporelle. Ici, chaque rendez-vous est un moment
             suspendu, pensé pour révéler ce qui vous rend unique.
@@ -209,7 +209,7 @@ export default function AboutContent() {
               Née d&apos;une passion pour la beauté authentique
             </h2>
             <p className="mt-6 text-base leading-relaxed text-[#5A4F47]">
-              Bella Beauty Corner est né d&apos;une conviction simple : la
+              Salon Beauty est né d&apos;une conviction simple : la
               beauté ne se standardise pas, elle se révèle. Fondé par une
               équipe de professionnels passionnés, notre salon a grandi au
               fil des années pour devenir une adresse de confiance, où chaque
@@ -226,12 +226,12 @@ export default function AboutContent() {
 
           <MirrorReveal delay={0.15}>
             {/* Remplacez ce bloc par un <Image> Next.js réel du salon.
-                Alt SEO suggéré : "Intérieur élégant du salon Bella Beauty Corner" */}
+                Alt SEO suggéré : "Intérieur élégant du salon Salon Beauty" */}
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[2rem] bg-gradient-to-br from-[#EADFD3] via-[#F3E4E4] to-[#E4D9D0]">
               <div className="absolute inset-0 flex items-center justify-center">
                <Image
   src="/bg-hero.png"
-  alt="Intérieur élégant du salon Bella Beauty Corner"
+  alt="Intérieur élégant du salon Salon Beauty"
   fill
   className="object-cover"
 />
@@ -346,7 +346,7 @@ export default function AboutContent() {
     <p className="mx-auto mt-5 max-w-md text-base leading-relaxed text-[#5A4F47]">
       Notre équipe vous accueille avec plaisir pour vous conseiller et répondre
       à toutes vos questions. Contactez-nous dès aujourd hui et découvrez
-      l expérience Bella Beauty Corner.
+      l expérience Salon Beauty.
     </p>
 
     <div className="mt-9">

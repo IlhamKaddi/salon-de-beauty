@@ -36,7 +36,7 @@ export default function About() {
           <div className="relative aspect-[4/5] max-w-md overflow-hidden rounded-[2.5rem] shadow-soft">
             <Image
               src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=1000&auto=format&fit=crop"
-              alt="Professionnelle Bella Beauty Corner au travail dans son atelier"
+              alt="Professionnelle Salon Beauty au travail dans son atelier"
               fill
               sizes="(max-width: 1024px) 90vw, 450px"
               className="object-cover"
@@ -78,7 +78,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-6 max-w-lg text-charcoal/70 leading-relaxed"
           >
-            Fondé avec passion, Bella Beauty Corner est né d&apos;une
+            Fondé avec passion, Salon Beauty  est né d&apos;une
             conviction simple : chaque femme mérite de se sentir belle à sa
             manière. Notre équipe de professionnels — maquillage, coiffure,
             esthétique et onglerie — combine technique, écoute et créativité
