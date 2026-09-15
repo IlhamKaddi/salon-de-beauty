@@ -7,7 +7,7 @@ import SectionHeading from "./ui/SectionHeading";
 
 export default function Maps() {
   const mapEmbedSrc = `https://www.google.com/maps?q=${encodeURIComponent(
-    salonInfo.fullName + ", " + salonInfo.address
+     salonInfo.address
   )}&output=embed`;
 
   return (

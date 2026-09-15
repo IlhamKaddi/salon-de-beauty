@@ -197,15 +197,15 @@ export const navLinks = [
 
 export const salonInfo = {
   name: "Bella Beauty",
-  fullName: "Bella Beauty Corner",
-  instagramHandle: "@bella.beauty.corner01",
-  instagramUrl: "https://instagram.com/bella.beauty.corner01",
-  phone: "0664132203",
-  phoneDisplay: "06 64 13 22 03",
+  fullName: "Salon Beauty",
+  instagramHandle: "Salon beauty",
+  instagramUrl: "https://instagram.com",
+  phone: "0000000000",
+  phoneDisplay: "06 00 00 00 00",
   hours: "11:00 – 21:00",
-  mapsShareUrl: "https://maps.app.goo.gl/53RkrqypCoKKGkgk9?g_st=iw",
+  mapsShareUrl: "https://maps.app.goo.gl/2hFmRY5uuh7LLqKZ9",
   // Remplacez cette adresse par l'adresse exacte du salon pour un pin précis
-  address: "Casablanca, Maroc",
+  address: "Maroc",
 };
 
 export const instagramHighlights = [
